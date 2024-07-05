@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Paquetes - Nuevo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <div class="contenedor-nuevo">
+        <h3>Paquetes - Nuevo</h3>
+
+        <a href="index.html" class="boton-regresar">Regresar</a>
+
+        <form>
+            <div>
+                <label for="nuevo-destino">Destino:</label>
+                <input type="text" id="nuevo-destino" />
+            </div>
+
+            <div>
+                <label for="nuevo-hotel">Hotel:</label>
+                <input type="text" id="nuevo-hotel" />
+            </div>
+
+            <div>
+                <label for="nueva-noches">Noches:</label>
+                <input type="number" id="nueva-noches" />
+            </div>
+
+            <div>
+                <label for="nueva-dias">Días:</label>
+                <input type="number" id="nueva-dias" />
+            </div>
+
+            <div>
+                <label for="nuevo-precio">Precio-USD:</label>
+                <input type="number" id="nuevo-precio" />
+            </div>
+
+            <input type="button" id="boton-nuevo-paquete" value="Crear" />
+        </form>
+        
+    </div>
+    <div id="nuevo-destino-error" class="error"></div>
+    <script src='js/nuevo-paquete.js' type="module"></script>
+    <div id="descripcion">
+        <h4>Mejor época para visitar cada continente:</h4>
+        <ul>
+            <li><strong>África:</strong> De junio a octubre es la mejor época para visitar, especialmente para safaris.</li>
+          <li><strong>América del Norte:</strong> De mayo a septiembre es ideal, aunque depende de la región específica.</li>
+            <li><strong>América del Sur:</strong> De noviembre a marzo es el verano en la mayor parte del continente.</li>
+            <li><strong>Asia:</strong> De noviembre a marzo es generalmente la mejor época para evitar el monzón.</li>
+            <li><strong>Europa:</strong> De abril a septiembre es ideal para disfrutar del buen clima.</li>
+            <li><strong>Oceanía:</strong> De diciembre a febrero es el verano y la mejor época para disfrutar de las playas.</li>
+            <li><strong>Antártida:</strong> De noviembre a marzo es la única época accesible para turistas.</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title><P></P>aquetes - Editar</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="contenedor-editar">
+        <a href="index.html" class="boton-regresar">Regresar</a>
+
+        <form>
+            <div>
+                <label for="editar-destino">Destino:</label>
+                <input type="text" id="editar-destino" />
+            </div>
+            <div>
+                <label for="editar-hotel">Hotel:</label>
+                <input type="text" id="editar-hotel" />
+                <div>
+                    <label for="editar-noches">Noches:</label>
+                    <input type="number" id="editar-noches" />
+                </div> 
+
+
+               <div>
+                    <label for="editar-dias">Dias:</label>
+                    <input type="number" id="editar-dias" />
+                <div> 
+
+                <div>
+                    <label for="editar-precio">Precio-USD:</label>
+                    <input type="number" id="editar-precio" />
+                <div> 
+
+                <input type="button" id="boton-actualizar-paquete" value="Actualizar" />
+        </form>
+    </div>
+    <div id="editar-paquete-error" class="error"></div>
+    <script src='js/editar-paquete.js' type="module"></script>
+</body>
+
+</html>

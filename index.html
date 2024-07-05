@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paquetes</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="imagenes-fondo">
+        <img src="https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704_1280.jpg" alt="Imagen de fondo 1">
+        <img src="https://cdn.pixabay.com/photo/2015/10/23/11/10/sea-1002804_1280.jpg" alt="Imagen de fondo 2">
+        <img src="https://cdn.pixabay.com/photo/2013/04/11/19/46/building-102840_1280.jpg" alt="Imagen de fondo 3">
+        <img src="https://cdn.pixabay.com/photo/2021/08/02/16/22/beach-6517214_1280.jpg" alt="Imagen de fondo 4">
+        <img src="https://cdn.pixabay.com/photo/2018/04/25/09/26/eiffel-tower-3349075_1280.jpg" alt="Imagen de fondo 5">
+        <img src="https://cdn.pixabay.com/photo/2018/01/21/19/55/winter-3097418_1280.jpg" alt="Imagen de fondo 6">
+        <img src="https://cdn.pixabay.com/photo/2016/02/13/12/26/aurora-1197753_1280.jpg" alt="Imagen de fondo 7">
+        <img src="https://cdn.pixabay.com/photo/2017/01/28/02/24/japan-2014616_1280.jpg" alt="Imagen de fondo 8">
+        <img src="https://cdn.pixabay.com/photo/2021/06/12/02/38/cherry-blossoms-6329828_1280.jpg" alt="Imagen de fondo 9">
+
+    </div>
+    <div class="contenedor-index">
+ 
+
+
+        <a href="login.html" id="boton-logout">Logout</a>
+        <div>
+            <a href="nuevo-paquete.html" id="boton-nuevoPaquete">Nuevo paquete</a>
+            <h3>Filtros</h3>
+            <div class="grupo-botones">
+                <div>
+                    <label for="input-filtro-destino">Destino</label>
+                    <input type="text" id="input-filtro-destino" />
+                </div>
+                <div>
+                    <label for="input-filtro-hotel">Hotel</label>
+                    <select id="input-filtro-hotel">
+                        <option value="">Todos</option>
+                    </select>
+                </div>
+                <div >
+                    <label for="input-filtro-noches">Noches</label>
+                    <select id="input-filtro-noches">
+                        <option value="">Todos</option>
+                    </select>
+                </div>
+                <input type="button" id="boton-filtro" value="Filtrar" />
+            </div>
+            <br>
+        </div>
+        <div id="listado"></div>
+        <div id="lista-error" class="error"></div>
+    </div>
+    <script src='js/index.js' type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paquetes - Login</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="ventana-lateralIzquierda">
+        <img src="https://cdn.pixabay.com/photo/2018/12/27/13/24/griffith-observatory-3897616_1280.jpg" alt="" class="imagen-lateral">
+        
+        <div class="contenedores-laterales">      
+        </div>
+    </div>
+
+    <div class="ventana-avion">
+        <div class="cortina">
+            <div class="manija"></div>
+        </div>
+        <div class="contenedor">
+            <h1 class="titulo">Ingresar a <p>RumboViajes</p> </h1>
+            <form class="formulario-login">
+                <div class="campo">
+                    <label for="form-login-email">Usuario:</label>
+                    <input type="text" id="form-login-email" required />
+                </div>
+                <div class="campo">
+                    <label for="form-login-password">Contraseña:</label>
+                    <input type="password" id="form-login-password" required />
+                </div>
+                <input type="button" id="form-login-submit" value="Login" />
+                <div id="form-login-error" class="error"></div>
+            </form>
+            <a href="register.html" class="registro-link">Registrarse</a>
+        </div>
+    </div>
+
+    <div class="ventana-lateralDerecha">
+        <img src="https://cdn.pixabay.com/photo/2014/04/15/15/34/sao-paulo-324913_1280.jpg" alt="" class="imagen-lateral">
+        <div class="cortinas-laterales">
+            <div class="manijas-laterales"></div>
+        </div>
+        <div class="contenedores-laterales">      
+        </div>
+    </div>
+
+    <script src='js/login.js' type="module"></script>
+</body>
+
+</html>
